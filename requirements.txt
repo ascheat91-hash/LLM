@@ -1,0 +1,34 @@
+# FOXSI Local AI Voice Assistant Requirements
+# Fast API & Web Server
+fastapi>=0.110.0
+python-multipart>=0.0.9
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pyyaml>=6.0.1
+psutil>=5.9.0
+
+# Local LLM Inference
+llama-cpp-python>=0.2.70
+
+# Local Speech-to-Text (STT)
+faster-whisper>=1.0.0
+
+# Local Text-to-Speech (TTS)
+piper-tts>=1.2.0
+pyttsx3>=2.90
+
+# Audio I/O & Processing
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Wake Word Detection
+openwakeword>=0.6.0
+
+# System Automation & Windows Integration
+pywin32>=306
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0

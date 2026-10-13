@@ -1,0 +1,208 @@
+2026-10-12 06:21:39 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 06:21:39 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=512, threads=2, gpu_layers=0)...
+2026-10-12 06:21:41 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 06:21:43 [INFO] [foxsi:_init_db] SQLite memory database initialized at C:\Users\wgbla\AppData\Local\Temp\test_mem_b8l39jpo.db
+2026-10-12 06:21:44 [INFO] [foxsi:clear_conversation] Conversation history cleared from SQLite database.
+2026-10-12 06:21:44 [WARNING] [foxsi:is_blocked] BLOCKED ACTION DETECTED: invoke-mimikatz -> Security Violation: Pattern '(mimikatz|invoke-mimikatz)' is strictly blocked.
+2026-10-12 06:21:44 [INFO] [foxsi:execute_tool] Executing tool 'get_time' with args {}
+2026-10-12 06:21:44 [INFO] [foxsi:execute_tool] Tool 'get_time' execution completed: ok
+2026-10-12 06:21:44 [INFO] [foxsi:execute_tool] Executing tool 'get_system_info' with args {}
+2026-10-12 06:21:44 [INFO] [foxsi:execute_tool] Tool 'get_system_info' execution completed: ok
+2026-10-12 06:21:44 [INFO] [foxsi:create_confirmation_request] Created confirmation request [21436438] for tool 'close_program': Request to execute 'close_program' with parameters {'process_name_or_pid': 'calc.exe'}
+2026-10-12 06:21:44 [INFO] [foxsi:resolve_request] Confirmation request [21436438] was REJECTED
+2026-10-12 06:21:44 [INFO] [foxsi:initialize_model] Initializing faster-whisper model 'tiny.en' on cpu (int8)...
+2026-10-12 06:21:46 [INFO] [foxsi:initialize_model] Whisper model 'tiny.en' loaded successfully.
+2026-10-12 06:21:46 [INFO] [foxsi:transcribe] Transcribing audio (16000 samples, 1.0s)...
+2026-10-12 06:21:46 [INFO] [foxsi:transcribe] Transcription complete in 0.141s: '' (lang=en)
+2026-10-12 06:21:46 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-12 06:22:01 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-12 06:26:10 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-12 06:26:10 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 06:26:10 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 06:26:10 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 06:26:11 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 06:26:12 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-12 06:29:36 [INFO] [foxsi:process_query] LLM Raw Output: No local LLM model is currently loaded. Please select and load a GGUF model in the Model tab.
+2026-10-12 06:29:51 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 06:29:51 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 06:29:51 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 06:29:52 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 06:29:53 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-12 06:31:21 [INFO] [foxsi:process_query] LLM Raw Output: Hello FOXSI. I am FOXSI, a local AI voice assistant running on the user's Windows PC. I am here to provide you with information and answer questions.
+2026-10-12 06:38:30 [INFO] [foxsi:process_query] LLM Raw Output: {
+  "tool": "open_application",
+  "arguments": {
+    "app_name": "calc"
+  }
+}
+2026-10-12 06:38:30 [INFO] [foxsi:process_query] Parsed tool call: open_application({'app_name': 'calc'})
+2026-10-12 06:38:30 [INFO] [foxsi:execute_tool] Executing tool 'open_application' with args {'app_name': 'calc'}
+2026-10-12 06:38:30 [INFO] [foxsi:execute_tool] Tool 'open_application' execution completed: success
+2026-10-12 06:45:49 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-12 06:46:00 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-12 06:49:50 [INFO] [foxsi:process_query] LLM Raw Output: I'm here to help, what can I assist you with today?
+2026-10-12 06:49:50 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 06:49:50 [INFO] [foxsi:_play_worker] Speaking: 'I'm here to help, what can I assist you with today?...'
+2026-10-12 06:52:11 [INFO] [foxsi:process_query] LLM Raw Output: Hello FOXSI. I am FOXSI, a local AI voice assistant running on the user's Windows PC. How can I assist you today?
+2026-10-12 06:52:11 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 06:52:11 [INFO] [foxsi:_play_worker] Speaking: 'Hello FOXSI. I am FOXSI, a local AI voice assistant running ...'
+2026-10-12 06:52:33 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 06:52:33 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 06:52:35 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 25 chunks.
+2026-10-12 06:52:35 [INFO] [foxsi:initialize_model] Initializing faster-whisper model 'tiny.en' on cpu (int8)...
+2026-10-12 06:52:37 [INFO] [foxsi:initialize_model] Whisper model 'tiny.en' loaded successfully.
+2026-10-12 06:52:37 [INFO] [foxsi:transcribe] Transcribing audio (25600 samples, 1.6s)...
+2026-10-12 06:52:37 [INFO] [foxsi:transcribe] Transcription complete in 0.044s: '' (lang=en)
+2026-10-12 06:52:37 [INFO] [foxsi:trigger_voice_interaction] No speech recognized in audio.
+2026-10-12 06:52:43 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 06:52:43 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 06:52:45 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 25 chunks.
+2026-10-12 06:52:45 [INFO] [foxsi:transcribe] Transcribing audio (25600 samples, 1.6s)...
+2026-10-12 06:52:45 [INFO] [foxsi:transcribe] Transcription complete in 0.006s: '' (lang=en)
+2026-10-12 06:52:45 [INFO] [foxsi:trigger_voice_interaction] No speech recognized in audio.
+2026-10-12 06:52:46 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 06:52:46 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 06:52:48 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 28 chunks.
+2026-10-12 06:52:48 [INFO] [foxsi:transcribe] Transcribing audio (28672 samples, 1.79s)...
+2026-10-12 06:52:50 [INFO] [foxsi:transcribe] Transcription complete in 2.221s: '10.' (lang=en)
+2026-10-12 06:52:50 [INFO] [foxsi:trigger_voice_interaction] Recognized user transcript: '10.'
+2026-10-12 06:53:07 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 06:53:07 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 0 chunks.
+2026-10-12 06:54:17 [INFO] [foxsi:_run_download] Starting download of gemma-2-2b-it-q4_k_m.gguf from https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf
+2026-10-12 06:57:57 [INFO] [foxsi:_run_download] Download completed for gemma-2-2b-it-q4_k_m.gguf (1708582752 bytes)
+2026-10-12 07:14:06 [INFO] [foxsi:_unload_internal] Unloading LLM model: G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 07:14:06 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\gemma-2-2b-it-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 07:14:09 [INFO] [foxsi:load_model] Model successfully loaded: gemma-2-2b-it-q4_k_m.gguf
+2026-10-12 07:22:36 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-12 07:22:36 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 07:22:36 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 07:22:36 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 07:22:48 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 07:22:48 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-12 07:23:32 [INFO] [foxsi:process_query] LLM Raw Output: Hello FOXSI. How can I assist you today?
+2026-10-12 07:23:32 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 07:23:32 [INFO] [foxsi:_play_worker] Speaking: 'Hello FOXSI. How can I assist you today?...'
+2026-10-12 07:23:32 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-12 07:23:43 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-12 07:25:56 [INFO] [foxsi:process_query] LLM Raw Output: I'm here to help with any inquiries you may have. How can I assist you today?
+2026-10-12 07:25:56 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 07:25:56 [INFO] [foxsi:_play_worker] Speaking: 'I'm here to help with any inquiries you may have. How can I ...'
+2026-10-12 07:26:44 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 07:26:44 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 07:26:46 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 25 chunks.
+2026-10-12 07:26:46 [INFO] [foxsi:initialize_model] Initializing faster-whisper model 'tiny.en' on cpu (int8)...
+2026-10-12 07:27:02 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 07:27:02 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 0 chunks.
+2026-10-12 07:27:12 [INFO] [foxsi:initialize_model] Whisper model 'tiny.en' loaded successfully.
+2026-10-12 07:27:12 [INFO] [foxsi:transcribe] Transcribing audio (25600 samples, 1.6s)...
+2026-10-12 07:27:12 [INFO] [foxsi:transcribe] Transcription complete in 0.017s: '' (lang=en)
+2026-10-12 07:27:12 [INFO] [foxsi:trigger_voice_interaction] No speech recognized in audio.
+2026-10-12 07:27:12 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 07:27:12 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 07:27:14 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 26 chunks.
+2026-10-12 07:27:14 [INFO] [foxsi:transcribe] Transcribing audio (26624 samples, 1.66s)...
+2026-10-12 07:27:14 [INFO] [foxsi:transcribe] Transcription complete in 0.008s: '' (lang=en)
+2026-10-12 07:27:14 [INFO] [foxsi:trigger_voice_interaction] No speech recognized in audio.
+2026-10-12 07:27:14 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 07:27:14 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 07:27:15 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 25 chunks.
+2026-10-12 07:27:15 [INFO] [foxsi:transcribe] Transcribing audio (25600 samples, 1.6s)...
+2026-10-12 07:27:15 [INFO] [foxsi:transcribe] Transcription complete in 0.006s: '' (lang=en)
+2026-10-12 07:27:15 [INFO] [foxsi:trigger_voice_interaction] No speech recognized in audio.
+2026-10-12 07:27:20 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-12 07:27:20 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-12 07:27:25 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 72 chunks.
+2026-10-12 07:27:25 [INFO] [foxsi:transcribe] Transcribing audio (73728 samples, 4.61s)...
+2026-10-12 07:27:25 [INFO] [foxsi:transcribe] Transcription complete in 0.627s: 'the hey I want to help.' (lang=en)
+2026-10-12 07:27:25 [INFO] [foxsi:trigger_voice_interaction] Recognized user transcript: 'the hey I want to help.'
+2026-10-12 07:30:49 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 07:30:49 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 0 chunks.
+2026-10-12 08:16:02 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-12 08:16:02 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 08:16:02 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 08:16:02 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 08:16:49 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 08:16:50 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-12 08:21:23 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-12 08:21:23 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 08:21:23 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 08:21:23 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 08:21:24 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 08:21:24 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-12 09:03:58 [INFO] [foxsi:process_query] LLM Raw Output: Hello FOXSI. How can I assist you today?
+2026-10-12 09:03:58 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-12 09:03:58 [INFO] [foxsi:_play_worker] Speaking: 'Hello FOXSI. How can I assist you today?...'
+2026-10-12 09:03:58 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-12 09:04:07 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-12 09:04:55 [INFO] [foxsi:_run_download] Starting download of phi-3.5-mini-instruct-q4_k_m.gguf from https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf
+2026-10-12 09:07:42 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-12 09:07:42 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-12 09:07:42 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-12 09:07:42 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-12 09:07:42 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-12 09:07:43 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-13 01:39:48 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-13 01:39:48 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=512, threads=2, gpu_layers=0)...
+2026-10-13 01:40:56 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-13 01:40:56 [INFO] [foxsi:_init_db] SQLite memory database initialized at C:\Users\wgbla\AppData\Local\Temp\test_mem_wltn9i14.db
+2026-10-13 01:40:56 [INFO] [foxsi:clear_conversation] Conversation history cleared from SQLite database.
+2026-10-13 01:40:56 [WARNING] [foxsi:is_blocked] BLOCKED ACTION DETECTED: invoke-mimikatz -> Security Violation: Pattern '(mimikatz|invoke-mimikatz)' is strictly blocked.
+2026-10-13 01:40:56 [INFO] [foxsi:execute_tool] Executing tool 'get_time' with args {}
+2026-10-13 01:40:56 [INFO] [foxsi:execute_tool] Tool 'get_time' execution completed: ok
+2026-10-13 01:40:56 [INFO] [foxsi:execute_tool] Executing tool 'get_system_info' with args {}
+2026-10-13 01:40:56 [INFO] [foxsi:execute_tool] Tool 'get_system_info' execution completed: ok
+2026-10-13 01:40:56 [INFO] [foxsi:create_confirmation_request] Created confirmation request [d6f67a15] for tool 'close_program': Request to execute 'close_program' with parameters {'process_name_or_pid': 'calc.exe'}
+2026-10-13 01:40:56 [INFO] [foxsi:resolve_request] Confirmation request [d6f67a15] was REJECTED
+2026-10-13 01:40:56 [INFO] [foxsi:initialize_model] Initializing faster-whisper model 'tiny.en' on cpu (int8)...
+2026-10-13 01:40:58 [INFO] [foxsi:initialize_model] Whisper model 'tiny.en' loaded successfully.
+2026-10-13 01:40:58 [INFO] [foxsi:transcribe] Transcribing audio (16000 samples, 1.0s)...
+2026-10-13 01:40:59 [INFO] [foxsi:transcribe] Transcription complete in 0.303s: '' (lang=en)
+2026-10-13 01:40:59 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-13 01:41:09 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-13 01:41:35 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-13 01:41:35 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-13 01:41:35 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-13 01:41:35 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-13 01:41:36 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-13 01:41:36 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-13 01:42:01 [INFO] [foxsi:process_query] LLM Raw Output: Hello FOXSI. How can I assist you today?
+2026-10-13 01:42:01 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-13 01:42:01 [INFO] [foxsi:_play_worker] Speaking: 'Hello FOXSI. How can I assist you today?...'
+2026-10-13 01:42:01 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-13 01:42:05 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-13 01:42:39 [INFO] [foxsi:_unload_internal] Unloading LLM model: G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-13 01:42:39 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\gemma-2-2b-it-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-13 01:51:57 [INFO] [foxsi:lifespan] Starting FOXSI Voice Assistant server...
+2026-10-13 01:51:57 [INFO] [foxsi:_init_db] SQLite memory database initialized at G:\llm\data\foxsi_memory.db
+2026-10-13 01:51:57 [INFO] [foxsi:startup] Initializing FOXSI Voice Assistant Service...
+2026-10-13 01:51:57 [INFO] [foxsi:load_model] Loading LLM model from 'G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf' (ctx=4096, threads=4, gpu_layers=0)...
+2026-10-13 01:51:58 [INFO] [foxsi:load_model] Model successfully loaded: qwen2.5-0.5b-instruct-q4_k_m.gguf
+2026-10-13 01:51:58 [INFO] [foxsi:startup] FOXSI Assistant Service startup completed.
+2026-10-13 01:58:22 [INFO] [foxsi:process_query] LLM Raw Output: I'm fine, thank you. How can I help you today?
+2026-10-13 01:58:22 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-13 01:58:22 [INFO] [foxsi:_play_worker] Speaking: 'I'm fine, thank you. How can I help you today?...'
+2026-10-13 01:58:22 [INFO] [foxsi:_load_piper_voice] Loading Piper voice from en_US-lessac-medium.onnx...
+2026-10-13 01:58:26 [INFO] [foxsi:_load_piper_voice] Piper voice loaded successfully.
+2026-10-13 01:58:48 [INFO] [foxsi:process_query] LLM Raw Output: ```json
+{
+  "tool": "open_folder",
+  "arguments": {
+    "folder_path": "C:/Windows"
+  }
+}
+```
+2026-10-13 01:58:48 [INFO] [foxsi:process_query] Parsed tool call: open_folder({'folder_path': 'C:/Windows'})
+2026-10-13 01:58:48 [INFO] [foxsi:execute_tool] Executing tool 'open_folder' with args {'folder_path': 'C:/Windows'}
+2026-10-13 01:58:49 [INFO] [foxsi:execute_tool] Tool 'open_folder' execution completed: success
+2026-10-13 01:58:51 [INFO] [foxsi:stop] TTS playback stopped.
+2026-10-13 01:58:51 [INFO] [foxsi:_play_worker] Speaking: 'The user has successfully opened the 'C:/Windows' folder on ...'
+2026-10-13 01:59:18 [INFO] [foxsi:clear_conversation] Conversation history cleared from SQLite database.
+2026-10-13 01:59:24 [INFO] [foxsi:trigger_voice_interaction] Listening for user voice...
+2026-10-13 01:59:24 [INFO] [foxsi:start_recording] Microphone recording started.
+2026-10-13 01:59:32 [INFO] [foxsi:stop_recording] Microphone recording stopped. Collected 125 chunks.
+2026-10-13 01:59:32 [INFO] [foxsi:initialize_model] Initializing faster-whisper model 'tiny.en' on cpu (int8)...
+2026-10-13 01:59:33 [INFO] [foxsi:initialize_model] Whisper model 'tiny.en' loaded successfully.
+2026-10-13 01:59:33 [INFO] [foxsi:transcribe] Transcribing audio (128000 samples, 8.0s)...
+2026-10-13 01:59:34 [INFO] [foxsi:transcribe] Transcription complete in 0.642s: 'Hello, it's me, Foxy.' (lang=en)
+2026-10-13 01:59:34 [INFO] [foxsi:trigger_voice_interaction] Recognized user transcript: 'Hello, it's me, Foxy.'
+2026-10-13 02:14:31 [INFO] [foxsi:_unload_internal] Unloading LLM model: G:\llm\models\qwen2.5-0.5b-instruct-q4_k_m.gguf

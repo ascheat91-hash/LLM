@@ -1,0 +1,49 @@
+assistant:
+  name: FOXSI
+  system_prompt: You are FOXSI, a local AI voice assistant running on the user's Windows
+    PC. You are helpful, concise, technically capable, and privacy-first. You operate
+    locally whenever possible. Never claim to have executed an operating-system action
+    unless the tool system confirms that it actually happened. Always provide brief,
+    conversational spoken-friendly responses when answering voice queries, or detailed
+    technical explanations when requested.
+  response_style: conversational
+  language: auto
+server:
+  host: 127.0.0.1
+  port: 8000
+llm:
+  model_path: models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+  context_size: 4096
+  temperature: 0.7
+  max_tokens: 1024
+  threads: 0
+  gpu_layers: -1
+stt:
+  engine: faster-whisper
+  model: tiny.en
+  device: cpu
+  compute_type: int8
+  language: en
+  microphone_index: null
+  silence_threshold: 0.015
+  silence_duration_seconds: 1.5
+tts:
+  engine: piper
+  voice_model: voices/en_US-lessac-medium.onnx
+  voice_config: voices/en_US-lessac-medium.onnx.json
+  rate: 1.0
+  volume: 1.0
+  pyttsx3_voice_id: null
+wakeword:
+  enabled: false
+  engine: openwakeword
+  model_name: hey_jarvis
+  threshold: 0.5
+  display_name: Hey FOXSI
+memory:
+  enabled: true
+  db_path: data/foxsi_memory.db
+  max_history_turns: 20
+security:
+  require_confirmation_for_medium: true
+  block_dangerous_tools: true
